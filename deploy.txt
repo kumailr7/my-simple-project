@@ -1,0 +1,23 @@
+building and deploying of images and container in phase2QA and phase2 
+
+first Git Pull or Git Fetch 
+
+Do the reqiured changes in the Docker Compose files 
+
+(look for the Env prod )
+
+if some old Container are running the Stop And remove them 
+
+docker build for phase2 or phase2QA 
+
+docker build -t registry.gitlab.com/aiydec_zinia/zinia-frontend/phase2:latest . --no-cache 
+
+docker deploy for phase2QA/phase2 (go in backend dev 2)
+
+docker-compose up
+
+docker ps -a 
+
+docker logs -f zinia-backend
+
+
