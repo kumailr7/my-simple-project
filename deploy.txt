@@ -18,6 +18,8 @@ docker-compose up
 
 docker ps -a 
 
-docker logs -f zinia-backend
+
+
+
 
 
